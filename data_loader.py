@@ -29,7 +29,7 @@ def data_loader(file_to_load):
           "ODF_SET": ODF_SET,
           "PeDF_FULL_SET": PeDF_FULL_SET,
           "PeDF_PARTIAL_SET": PeDF_PARTIAL_SET,
-          "bpm": int(bpm)
+          "bpm": bpm
     }
     
     hf.close()
